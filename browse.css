@@ -1,0 +1,64 @@
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+dl div {
+    display: flex;
+    flex-flow: column;
+    background-color: #eee;
+    border-radius: 8px;
+    border: none;
+    height: 10rem;
+    width: 22rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+dl dt {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+dl dd {
+    margin-top: 1rem;
+    margin-left: 0rem;
+}
+
+dl input {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;    
+    border-color: black ; 
+    outline: none;
+}
+
+dl button {
+    margin-top: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #c9c9c9;
+    font-size: 0.9rem;
+}
+dl button:hover:not([disabled]) {
+    background: #d0d0d0;
+}
+
+dl button:active:not([disabled]) {
+    background: #c0c0c0;
+}
+
+#error {
+    color: red;
+}
+
+p#notfound {
+    padding-left: 4rem;
+}
+

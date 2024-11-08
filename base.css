@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+button.icon {
+    color: #544b64;
+    background: none;
+    border: none;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+button.icon.with-border {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #544b64;
+}
+
+button.icon:hover:not([disabled]) {
+    background: #eee;
+}
+
+button.icon:active:not([disabled]) {
+    background: #ccc;
+}

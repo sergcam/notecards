@@ -1,0 +1,30 @@
+ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+li {
+    background-color: #eee;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    height: 10rem;
+    width: 10rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+li h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+}

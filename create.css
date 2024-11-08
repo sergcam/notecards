@@ -1,0 +1,130 @@
+button.secondary{
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+  button.secondary:hover:not([disabled]) {
+    background: #ddd
+  }
+
+  button.secondary:active:not([disabled]) {
+      background: #ccc;
+  }
+
+  form {
+    display: flex;
+    flex-flow: column;
+    margin-top: 4rem;
+    position: relative;
+  }
+  fieldset {
+    margin-bottom: 4rem;
+    padding-top: 5rem;
+    position: relative;
+    display: flex;
+    
+  }
+  form h2 {
+    position: absolute;
+    top: -4rem;
+  }
+  .input-wrapper {
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+  }
+  
+  .input-wrapper label {
+    position: relative;
+    left: -12rem;
+    top: 2rem;
+    font-size: 1rem;
+    color: #aaa;
+  }
+
+  input {
+    border-top: none;
+    border-left: none;
+    border-right: none;      
+    outline: none;
+    margin-bottom: 2rem;
+  }
+
+  #upload-input {
+    display: none;
+  }
+
+  form fieldset label[for="upload-input"] {
+    width: 2rem;
+    height: auto;
+    position: absolute;
+    right: 0.5rem;
+    top: -2.5rem;
+  }
+  span#file-name {
+    position: absolute;
+    right: 3.5rem;
+    top: -2.2rem;
+    color:green;
+    text-decoration: underline;
+  }
+
+  .card-input-wrapper {
+    display: flex;
+    flex-flow: column;
+    width: fit-content;
+  }
+
+  #add-card-button {
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+  }
+  dl div#empty-placeholder{
+    display: flex;
+    position: relative;
+    top: -2rem;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: #888;
+    border-width: 3px;
+    margin-left: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    max-width: 20rem;
+    height: 10rem;
+    
+  }
+  div.filled-card {
+    display: flex;
+    flex-flow: column;
+    background-color: #eee;
+    border-radius: 8px;
+    border: none;
+    height: 10rem;
+    width: 22rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+div.filled-card dt {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+div.filled-card dd {
+    margin-top: 1rem;
+    margin-left: 0rem;
+}
+
+  #empty-placeholder {
+    text-align: center;
+    color: #888;
+  }
